@@ -1,6 +1,10 @@
 # FrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Remember to install json server `npm i -g json-server`
+The db.json is at `src/assets`
+Run in another terminal with db.json directory `json-server -w db.json -p 3000`
+Run the project by `ng serve -o`
 
 ## Development server
 
