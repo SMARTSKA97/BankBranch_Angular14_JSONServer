@@ -1,0 +1,9 @@
+<div class="bank-delete-container">
+  <p-dropdown
+    [options]="banks"
+    [(ngModel)]="selectedBankId"
+    optionLabel="Bank_Name"
+    placeholder="Select a Bank">
+  </p-dropdown>
+  <p-button pButton label="Delete Bank" (click)="deleteBank()"></p-button>
+</div>

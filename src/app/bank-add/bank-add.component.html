@@ -1,0 +1,11 @@
+<div class="bank-add-container">
+  <form [formGroup]="bankForm" (ngSubmit)="addBank()">
+    <div class="form-group">
+      <label for="id">ID</label>
+      <input id="id" formControlName="id" type="text" pInputText />
+      <label for="Bank_Name">Bank Name</label>
+      <input id="Bank_Name" formControlName="Bank_Name" type="text" pInputText />
+    </div>
+    <button pButton label="Add Bank" type="submit"></button>
+  </form>
+</div>

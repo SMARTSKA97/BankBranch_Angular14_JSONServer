@@ -1,0 +1,10 @@
+<div class="branch-update-container">
+
+  <form [formGroup]="bankForm" (ngSubmit)="updateBank()">
+    <div class="form-group">
+      <label for="Bank_Name">Bank Name</label>
+      <input id="Bank_Name" formControlName="Bank_Name" type="text" pInputText />
+    </div>
+    <button pButton label="Update Branch" type="submit"></button>
+  </form>
+</div>
